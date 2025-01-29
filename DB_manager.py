@@ -4,7 +4,7 @@ import logging
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-class Db_manager:
+class DB_manager:
     @staticmethod
     def get_db_connection():
         try:
